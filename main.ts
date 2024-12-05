@@ -4,7 +4,7 @@ strip.setBrightness(150)
 basic.forever(function () {
     for (let index = 0; index < 6; index++) {
         strip.shift(1)
-        strip.setPixelColor(Led, neopixel.colors(NeoPixelColors.Red))
+        strip.setPixelColor(Led, neopixel.colors(NeoPixelColors.Yellow))
         strip.show()
         basic.pause(200)
         Led += 1
