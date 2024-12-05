@@ -6,7 +6,7 @@ basic.forever(function () {
         strip.shift(1)
         strip.setPixelColor(Led, neopixel.colors(NeoPixelColors.Red))
         strip.show()
-        basic.pause(100)
+        basic.pause(200)
         Led += 1
     }
     Led = 0
